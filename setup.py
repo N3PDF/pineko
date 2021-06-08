@@ -45,9 +45,12 @@ def setup_package():
         ],
         install_requires=[
             "eko<0.7",
+            "yadism",
             "pineappl",
             "pyyaml",
             "numpy",
+            "pandas",
+            "rich",
         ],
         python_requires=">=3.7",
     )
